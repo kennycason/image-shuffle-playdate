@@ -1,0 +1,28 @@
+# Build directory
+/build/
+
+# Object files
+*.o
+
+# Dependency files
+*.d
+
+# Assembly listings
+*.lst
+
+# Product files
+# *.pdx
+
+# macOS specific files
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+.idea/
+.vscode/
+Source/*.dylib
+Source/*.elf
