@@ -1,6 +1,8 @@
 # Image Shuffle Puzzle Game using C API
 
-![Screenshot](screenshot.png)
+
+<img src="https://raw.githubusercontent.com/kennycason/image-shuffle-playdate/refs/heads/main/screenshot.png" width="45%"/><img src="https://raw.githubusercontent.com/kennycason/image-shuffle-playdate/refs/heads/main/screenshot2.png" width="45%"/>
+
 
 ## Getting Started
 

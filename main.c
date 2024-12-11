@@ -8,9 +8,9 @@ static LCDFont* font = NULL;
 static char textBuffer[32];
 
 // Game constants
-#define PUZZLE_SIZE 10
+#define PUZZLE_SIZE 5
 static int tiles[PUZZLE_SIZE * PUZZLE_SIZE];
-static const int TILE_SIZE = 24;
+static const int TILE_SIZE = 48;
 static int emptyTileIndex = 0;
 static LCDBitmap* spriteSheet = NULL;
 static int lastMovedMs = 0;
@@ -51,7 +51,7 @@ static void shufflePuzzle(void) {
     int moves[4];
     int moveCount;
 
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 200; i++) {
         getPossibleMoves(moves, &moveCount);
         int randomIndex = rand() % moveCount;
         swapTiles(emptyTileIndex, moves[randomIndex]);
